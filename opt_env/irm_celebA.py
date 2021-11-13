@@ -1,3 +1,8 @@
+"""
+This will infer environment labels for CelebA. We can then take those outputs as group labels for input into GDRO 
+- (We do this because the original authors run their method using GDRO for Waterbirds)
+"""
+
 import argparse
 import os
 import pdb
